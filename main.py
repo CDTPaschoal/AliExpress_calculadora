@@ -22,7 +22,7 @@ def main():
   cotacao_dolar = float(
       input("Digite a cotação do dólar do dia: ").replace(",", "."))
   valor_em_real = float(
-      input("Digite o valor da compra em Real Brasileiro: ").replace(",", "."))
+      input("Digite o valor da compra em Real Brasileiro na AliExpress: ").replace(",", "."))
 
   valor_em_dolar = converter_real_para_dolar(valor_em_real, cotacao_dolar)
   valor_imposto_dolar = calcular_imposto(valor_em_dolar)
